@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.application.selectors.MainActivity"
+    android:padding="16dp"
+    >
+
+    <android.support.v7.widget.SwitchCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch_id"
+        android:text="@string/switch_text"
+        android:theme="@style/SwitchTheme"
+        />
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkbox_id"
+        android:layout_below="@id/switch_id"
+        android:text="@string/checkbox_text"
+        android:theme="@style/SwitchTheme"
+        />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gender_radios"
+        android:layout_below="@id/checkbox_id"
+        android:text="@string/gender_radios"
+        android:theme="@style/SwitchTheme"
+        >
+        <android.support.v7.widget.AppCompatRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gender_male"
+            android:text="@string/gender_radios_male"
+            />
+        <android.support.v7.widget.AppCompatRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gender_female"
+            android:text="@string/gender_radios_female"
+            />
+
+    </RadioGroup>
+
+
+</RelativeLayout>

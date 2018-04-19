@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Selectors</string>
+
+    <string name="switch_text">Switch OFF/ON</string>
+    <string name="checkbox_text">Checkbox</string>
+    <string name="gender_radios">Male</string>
+    <string name="gender_radios_male">Male</string>
+    <string name="gender_radios_female">Female</string>
+
+
+
+</resources>
